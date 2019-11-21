@@ -1,0 +1,190 @@
+body{
+  margin: 0%;
+  padding: 0%;
+}
+
+/* Navigation Bar*/
+
+
+.topnav{
+  margin: 0%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #cccccc;
+  
+}
+img{
+  margin: 0%;
+  padding: 0px 20px 0px 10px;
+}
+
+.topnav a{
+  display: inline-block;
+  padding: 26px 40px 31px 40px;
+  color: #333;
+  font-size: 20px;
+}
+.topnav i{
+  padding: 6px 15px 9px 15px;
+  float: right;
+}
+.topnav img:hover{
+  background-color: #cccccc;
+}
+.topnav a:hover{
+  
+  background-color: #404040;
+  color: white;
+}
+.topnav i:hover{
+  /*border-radius: 55%;
+  background-color: #404040*/;
+  color: #55AA55;
+}
+
+
+
+/* Main content of the page*/
+
+h2, 
+h3, 
+h4{
+  font-family: 'proxima-nova', sans-serif;
+}
+/*.ct-featureBox h4 {
+  padding: 10px 0 5px ;
+  color: #252525;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+.ct-featureBox p {
+  margin-bottom: 0%;
+}*/
+.main-content {
+  padding: 0;
+  background-image:linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)),  url("../media/images/hope-3467922_1920.jpg");
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  min-height: 600px;
+  
+}
+
+.main-content h2,
+.main-content h3 {
+  color: #003300;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+}
+.main-content h2 {
+  font-family: 'Bebas Neue';
+  margin-bottom: 0;
+}
+.main-content h3 {
+  font-weight: 300;
+  padding-bottom: 40px;
+  margin-top: 0;
+}
+.main-content h3,
+.fa {
+  font-size: 3rem;
+}
+
+
+.interest caption{
+  padding-bottom: 20px;
+  font-size: 34px;
+  color: #003300;
+  font-family: sans-serif;
+  text-align: center;
+}
+.interest table {
+  padding: 5px ;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 160px;
+  width: 70%;
+  background-color: #004d00;
+  color:white;
+}
+
+.interest th {
+  padding: 10px ;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 60;
+  font-family: sans-serif;
+}
+
+
+.interest td{
+  /*padding: 5px ;*/
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center; 
+  padding-left: 10px;
+  padding-top: 10px;
+  background-color:#ccffcc;
+  color:black;
+  font-family: Roboto;
+
+}
+
+.button {
+  size: 100%;
+  
+  padding-top: 50px;
+  padding-left: 160px;
+}
+
+.button button{
+      text-align: left;
+      width: 33%;
+      font-size: 30px;
+      padding: 14px 60px;
+      background-color: white;
+      color: black;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      display: inline-block;
+      border: 1px solid #800000;
+      border-radius: 10px;
+}
+button:hover{
+  background-color: #800000;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+@media screen and (max-width: 991px) {
+  .ct-featureBox {
+    padding: 20px 55px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main-content {
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+  .ct-featureBox {
+    width: 100%;
+    min-height: 200px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-content {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main-content {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
