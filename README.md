@@ -1,2 +1,2 @@
 # FundCrop
-A web based app for farmers to raise fund for their crops.
+FundCrop is a web based app that provides a platform to certified farmers request the people from the different part of the world to help them with funds in return expecting to get the money with minimal interest. People can also opt to either get only the principle amount back or donate the money to the farmers. FundCrop is an approach to help people of the nation to grow and develop by creating newer opportunities in agriculture.
